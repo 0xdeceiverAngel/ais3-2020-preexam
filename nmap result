@@ -1,0 +1,1172 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-06-08 12:31 CST
+Nmap scan report for 60-250-197-10.HINET-IP.hinet.net (60.250.197.10)
+Host is up (0.0059s latency).
+Not shown: 985 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+49/tcp    filtered tacacs
+53/tcp    open     domain
+81/tcp    open     hosts2-ns
+222/tcp   filtered rsh-spx
+443/tcp   open     https
+1047/tcp  filtered neod1
+1080/tcp  open     socks
+1086/tcp  filtered cplscrambler-lg
+3300/tcp  filtered ceph
+5000/tcp  open     upnp
+9999/tcp  open     abyss
+15002/tcp filtered onep-tls
+49155/tcp filtered unknown
+49157/tcp filtered unknown
+Device type: WAP|broadband router|general purpose|webcam|media device
+Running (JUST GUESSING): Linux 2.6.X|3.X|2.4.X (96%), Asus embedded (94%), AXIS embedded (94%), Dahua embedded (92%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.22 cpe:/o:linux:linux_kernel:3.3 cpe:/o:linux:linux_kernel:2.6 cpe:/h:asus:rt-n10 cpe:/h:axis:211_network_camera cpe:/o:linux:linux_kernel:2.6.20 cpe:/o:linux:linux_kernel:2.4.32 cpe:/o:linux:linux_kernel:3
+Aggressive OS guesses: OpenWrt Kamikaze 7.09 (Linux 2.6.22) (96%), OpenWrt (Linux 3.3) (95%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (94%), Linux 2.6.18 (94%), AXIS 211A Network Camera (Linux 2.6.20) (94%), Linux 2.6.24 (94%), Linux 2.6.16 (94%), OpenWrt (Linux 2.4.32) (94%), OpenWrt White Russian 0.9 (Linux 2.4.30) (94%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-13.HINET-IP.hinet.net (60.250.197.13)
+Host is up (0.012s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE
+25/tcp   open     smtp
+110/tcp  open     pop3
+179/tcp  open     bgp
+443/tcp  open     https
+1076/tcp filtered sns_credit
+1723/tcp open     pptp
+Aggressive OS guesses: Gemtek P360 WAP or Siemens Gigaset SE515dsl wireless broadband router (95%), OpenWrt (Linux 2.4.32) (94%), Comtrend CT536 wireless ADSL router (94%), Linux 2.6.18 (94%), Linux 2.6.29 (94%), Linksys WRV54G WAP (93%), OpenWrt White Russian 0.9 (Linux 2.4.30) (93%), Linksys RV042 router (93%), Linux 2.6.18 (CentOS 5.4) (93%), OpenWrt (Linux 2.4.30 - 2.4.34) (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-16.HINET-IP.hinet.net (60.250.197.16)
+Host is up (0.0065s latency).
+Not shown: 955 closed ports, 40 filtered ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+Aggressive OS guesses: OpenWrt Kamikaze 7.09 (Linux 2.6.22) (95%), DD-WRT v24-sp2 (Linux 3.10) (93%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (93%), OpenWrt White Russian 0.9 (Linux 2.4.30) (93%), Linux 3.0 (92%), ProVision-ISR security DVR (91%), Linux 2.6.32 (91%), ASUS RT-N56U WAP (Linux 3.4) (91%), HP P2000 G3 NAS device (91%), Linux 3.10 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-17.HINET-IP.hinet.net (60.250.197.17)
+Host is up (0.0065s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE
+497/tcp  filtered retrospect
+3052/tcp filtered powerchute
+3367/tcp filtered satvid-datalnk
+4126/tcp filtered ddrepl
+5003/tcp filtered filemaker
+5678/tcp filtered rrac
+8009/tcp filtered ajp13
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized
+Running: WIZnet embedded
+OS CPE: cpe:/h:wiznet:w5100
+OS details: WIZnet W5100 TCP/IP chip
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-18.HINET-IP.hinet.net (60.250.197.18)
+Host is up (0.0066s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+23/tcp   open     telnet
+80/tcp   open     http
+406/tcp  filtered imsp
+1024/tcp open     kdm
+1025/tcp open     NFS-or-IIS
+1026/tcp open     LSA-or-nterm
+1311/tcp filtered rxmon
+Aggressive OS guesses: Linksys WET54GS5 WAP, Tranzeo TR-CPQ-19f WAP, or Xerox WorkCentre Pro 265 printer (95%), ZyXEL NSA-200 NAS device (95%), Control4 HC-300 home controller (95%), Supermicro AOC-SIMSO+ daughter card (95%), Linux 2.6.24 (94%), D-Link DAP-1522 WAP, or Xerox WorkCentre Pro 245 or 6556 printer (94%), Citrix XenServer 5.5 (Linux 2.6.18) (94%), Linux 2.6.22 (94%), Linux 2.6.27 - 2.6.28 (94%), Dell iDRAC 6 remote access controller (Linux 2.6) (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-25.HINET-IP.hinet.net (60.250.197.25)
+Host is up (0.012s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE
+80/tcp   open     http
+212/tcp  filtered anet
+722/tcp  filtered unknown
+1300/tcp filtered h323hostcallsc
+2718/tcp filtered pn-requester2
+2909/tcp filtered funk-dialout
+7001/tcp filtered afs3-callback
+8022/tcp open     oa-system
+Aggressive OS guesses: XBMCbuntu Frodo v12.2 (Linux 3.X) (97%), OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7) (97%), Linux 3.2 (95%), Linux 3.5 (95%), Linux 2.6.32 - 3.10 (95%), Linux 2.6.32 - 3.9 (95%), Linux 3.1 (94%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), Linux 3.8 (94%), Linux 3.2 - 3.10 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-26.HINET-IP.hinet.net (60.250.197.26)
+Host is up (0.012s latency).
+Not shown: 986 filtered ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+211/tcp  open  914c-g
+212/tcp  open  anet
+445/tcp  open  microsoft-ds
+1433/tcp open  ms-sql-s
+1801/tcp open  msmq
+2103/tcp open  zephyr-clt
+2105/tcp open  eklogin
+2107/tcp open  msmq-mgmt
+3389/tcp open  ms-wbt-server
+5000/tcp open  upnp
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): FreeBSD 6.X (87%)
+OS CPE: cpe:/o:freebsd:freebsd:6.2
+Aggressive OS guesses: FreeBSD 6.2-RELEASE (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-28.HINET-IP.hinet.net (60.250.197.28)
+Host is up (0.010s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE
+23/tcp   open     telnet
+80/tcp   open     http
+1935/tcp filtered rtmp
+3013/tcp filtered gilatskysurfer
+5050/tcp open     mmcc
+8009/tcp filtered ajp13
+Device type: printer|general purpose|WAP|power-device|remote management|broadband router
+Running (JUST GUESSING): Epson embedded (96%), Linux 2.4.X|2.6.X (95%), Raritan embedded (94%), Starbridge Networks embedded (93%), Dell embedded (93%), Asus embedded (93%)
+OS CPE: cpe:/h:epson:artisan_810 cpe:/o:linux:linux_kernel:2.4 cpe:/o:linux:linux_kernel:2.6.22 cpe:/o:linux:linux_kernel:2.6 cpe:/h:starbridge_networks:1531 cpe:/h:dell:remote_access_card:5 cpe:/h:asus:rt-ac66u
+Aggressive OS guesses: Epson Artisan 810 printer (96%), Linux 2.4.21 - 2.4.31 (likely embedded) (95%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (95%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (95%), OpenWrt White Russian 0.9 (Linux 2.4.30) (94%), Linux 2.4.27 (94%), Linux 2.6.8 - 2.6.30 (94%), Raritan Dominion PX DPXR20-20L power control unit (94%), Linux 2.6.18 - 2.6.24 (93%), Linux 2.6.22 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+
+Nmap scan report for mail.pbc.org.tw (60.250.197.33)
+Host is up (0.0083s latency).
+Not shown: 990 closed ports
+PORT      STATE    SERVICE
+21/tcp    open     ftp
+22/tcp    open     ssh
+53/tcp    open     domain
+80/tcp    open     http
+443/tcp   open     https
+1084/tcp  filtered ansoft-lm-2
+7999/tcp  filtered irdmi2
+10566/tcp filtered unknown
+31337/tcp filtered Elite
+64680/tcp filtered unknown
+Device type: firewall|WAP|general purpose|security-misc
+Running (JUST GUESSING): Linux 2.6.X|2.4.X (94%), Endian embedded (94%), IPCop embedded (94%), Cymphonix embedded (93%), NSFOCUS embedded (93%), ZyXEL ZyNOS 2.X (92%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.4 cpe:/a:endian:firewall:2.3 cpe:/o:ipcop:ipcop:1.4 cpe:/h:cymphonix:ex550 cpe:/o:linux:linux_kernel:2.4.21 cpe:/o:linux:linux_kernel:2.6.24 cpe:/o:zyxel:zynos:2.21
+Aggressive OS guesses: Endian 2.3 or IPCop firewall 1.4.10 - 1.4.21 (Linux 2.4.31 - 2.6.22) (94%), OpenWrt Backfire 10.03.1 (Linux 2.6) (94%), Cymphonix EX550 firewall (93%), Linux 2.4.21 (93%), Linux 2.6.24 (Gentoo) (93%), NSFOCUS WAF (93%), ZyXEL ZyWALL USG 20 or USG 50 firewall (ZyNOS 2.21) (92%), Linux 2.6.18 (92%), OpenWrt (Linux 2.4.32) (91%), Cisco NME-NAM-80S network analysis module (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-34.HINET-IP.hinet.net (60.250.197.34)
+Host is up (0.0061s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+22/tcp   open     ssh
+53/tcp   open     domain
+80/tcp   open     http
+443/tcp  open     https
+497/tcp  filtered retrospect
+1137/tcp filtered trim
+2301/tcp filtered compaqdiag
+7676/tcp filtered imqbrokerd
+8181/tcp filtered intermapper
+Device type: firewall|WAP|general purpose|security-misc
+Running (JUST GUESSING): Linux 2.6.X|2.4.X (94%), Endian embedded (94%), IPCop embedded (94%), ZyXEL ZyNOS 2.X (93%), Cymphonix embedded (93%), NSFOCUS embedded (93%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.4 cpe:/a:endian:firewall:2.3 cpe:/o:ipcop:ipcop:1.4 cpe:/o:zyxel:zynos:2.21 cpe:/h:cymphonix:ex550 cpe:/o:linux:linux_kernel:2.4.21 cpe:/o:linux:linux_kernel:2.6.24
+Aggressive OS guesses: Endian 2.3 or IPCop firewall 1.4.10 - 1.4.21 (Linux 2.4.31 - 2.6.22) (94%), OpenWrt Backfire 10.03.1 (Linux 2.6) (94%), ZyXEL ZyWALL USG 20 or USG 50 firewall (ZyNOS 2.21) (93%), Cymphonix EX550 firewall (93%), Linux 2.4.21 (93%), Linux 2.6.24 (Gentoo) (93%), NSFOCUS WAF (93%), Linux 2.6.18 (92%), OpenWrt (Linux 2.4.32) (91%), Check Point SecurePlatform NGX R65 firewall (Linux 2.4.21) (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for chukei.com.tw (60.250.197.37)
+Host is up (0.014s latency).
+Not shown: 992 filtered ports
+PORT      STATE SERVICE
+88/tcp    open  kerberos-sec
+443/tcp   open  https
+1723/tcp  open  pptp
+8080/tcp  open  http-proxy
+56737/tcp open  unknown
+56738/tcp open  unknown
+57294/tcp open  unknown
+57797/tcp open  unknown
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Android 1.1 (Linux 2.6.25) (91%), Linux 2.6.18 (91%), Linux 2.6.29 - 2.6.31 (91%), Cisco RV042 WAP (Linux 2.6) (91%), Linux 2.6.20-1 (Fedora Core 5) (87%), Linux 2.6.9-022stab078.19-enterprise (CentOS 4.2 x86) (86%), AVM FRITZ!Box FON WLAN 7170 WAP (Linux 2.6.13) (86%), Ubiquity AirOS (Linux) (86%), ZoneAlarm Z100G WAP (86%), ISS Proventia GX3002 firewall (Linux 2.4.18) (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for mail.chukei.com.tw (60.250.197.38)
+Host is up (0.015s latency).
+Not shown: 993 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+25/tcp  open  smtp
+53/tcp  open  domain
+110/tcp open  pop3
+800/tcp open  mdbs_daemon
+900/tcp open  omginitialrefs
+901/tcp open  samba-swat
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|WAP
+Running (JUST GUESSING): Linux 3.X (88%), Linksys embedded (88%)
+OS CPE: cpe:/o:linux:linux_kernel:3.16 cpe:/o:linux:linux_kernel cpe:/h:linksys:ea3500
+Aggressive OS guesses: Linux 3.16 (88%), Linksys EA3500 WAP (88%), Linux 3.13 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-49.HINET-IP.hinet.net (60.250.197.49)
+Host is up (0.0061s latency).
+Not shown: 992 filtered ports
+PORT     STATE SERVICE
+25/tcp   open  smtp
+80/tcp   open  http
+110/tcp  open  pop3
+119/tcp  open  nntp
+143/tcp  open  imap
+443/tcp  open  https
+1443/tcp open  ies-lm
+8080/tcp open  http-proxy
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: HP P2000 G3 NAS device (94%), Linux 3.10 (92%), Linux 3.2 - 3.16 (92%), MikroTik RouterOS 6.19 (Linux 3.3.5) (92%), Linux 2.6.32 - 3.10 (91%), Linux 2.6.32 - 3.13 (91%), Linux 2.6.32 - 3.9 (91%), OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7) (91%), XBMCbuntu Frodo v12.2 (Linux 3.X) (91%), DD-WRT v24 or v30 (Linux 3.10) (91%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-50.HINET-IP.hinet.net (60.250.197.50)
+Host is up (0.0065s latency).
+Not shown: 986 closed ports
+PORT      STATE    SERVICE
+21/tcp    open     ftp
+22/tcp    open     ssh
+80/tcp    open     http
+211/tcp   open     914c-g
+1021/tcp  filtered exp1
+1152/tcp  filtered winpoplanmess
+1433/tcp  open     ms-sql-s
+1521/tcp  filtered oracle
+1583/tcp  filtered simbaexpress
+3389/tcp  open     ms-wbt-server
+4000/tcp  open     remoteanything
+6123/tcp  filtered backup-express
+8290/tcp  filtered unknown
+57294/tcp filtered unknown
+Aggressive OS guesses: OpenWrt Kamikaze 7.09 (Linux 2.6.22) (95%), DD-WRT v24-sp2 (Linux 3.10) (94%), Linux 3.0 (94%), ProVision-ISR security DVR (93%), Linux 2.6.32 (93%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (93%), OpenWrt White Russian 0.9 (Linux 2.4.30) (93%), HP P2000 G3 NAS device (92%), Dahua network video recorder (91%), Linux 2.6.32 - 3.10 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-51.HINET-IP.hinet.net (60.250.197.51)
+Host is up (0.0079s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE
+80/tcp   open     http
+554/tcp  open     rtsp
+1032/tcp filtered iad3
+3986/tcp filtered mapper-ws_ethd
+8089/tcp filtered unknown
+9000/tcp filtered cslistener
+Aggressive OS guesses: Linux 3.18 (95%), Linux 3.2 - 4.8 (95%), DD-WRT (Linux 3.18) (95%), DD-WRT v3.0 (Linux 4.4.2) (95%), Linux 3.16 (95%), ASUS RT-N56U WAP (Linux 3.4) (94%), Android 4.1.1 (94%), Android 4.1.2 (94%), Android 4.2.2 (Linux 3.4) (93%), Linux 3.1 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-55.HINET-IP.hinet.net (60.250.197.55)
+Host is up (0.0092s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE
+80/tcp   open     http
+1031/tcp filtered iad2
+1032/tcp open     iad3
+1081/tcp filtered pvuniwien
+1082/tcp open     amt-esd-prot
+2200/tcp open     ici
+Aggressive OS guesses: Linksys WRV54G WAP (98%), Linksys RV042 router (97%), Linux 2.6.14 - 2.6.30 (96%), Nokia N900 mobile phone (Linux 2.6.28) (95%), Cisco Unified Wireless IP Phone 7925G (95%), Extreme Networks switch (ExtremeXOS 15 - 16) (95%), Linux 2.4.18 - 2.4.35 (likely embedded) (95%), Linux 2.6.9 - 2.6.33 (95%), Linux 2.6.22 (95%), Linux 2.6.17 (ZyXEL NWA570N WAP) (95%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-59.HINET-IP.hinet.net (60.250.197.59)
+Host is up (0.0090s latency).
+Not shown: 995 closed ports
+PORT      STATE    SERVICE
+80/tcp    open     http
+554/tcp   open     rtsp
+2045/tcp  filtered cdfunc
+25734/tcp filtered unknown
+28201/tcp filtered unknown
+Aggressive OS guesses: Linux 3.13 or 4.2 (96%), Linux 3.10 - 4.8 (95%), Linux 4.1 (95%), Asus RT-AC66U WAP (95%), HP P2000 G3 NAS device (95%), Linux 4.4 (94%), Linux 3.16 - 4.6 (94%), Linux 3.18 (93%), Linux 3.2 - 4.8 (93%), DD-WRT (Linux 3.18) (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-61.HINET-IP.hinet.net (60.250.197.61)
+Host is up (0.0092s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+113/tcp closed ident
+443/tcp open   https
+541/tcp open   uucp-rlogin
+Device type: firewall|general purpose|specialized
+Running (JUST GUESSING): Fortinet embedded (91%), Linux 2.6.X (88%), AVtech embedded (85%)
+OS CPE: cpe:/h:fortinet:fortigate_100d cpe:/o:linux:linux_kernel:2.6
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (91%), Linux 2.6.18 - 2.6.22 (88%), Fortinet FortiGate-50B or 310B firewall (86%), AVtech Room Alert 26W environmental monitor (85%), Fortinet FortiGate 1500D firewall (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-68.HINET-IP.hinet.net (60.250.197.68)
+Host is up (0.0053s latency).
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE
+179/tcp  closed bgp
+646/tcp  closed ldp
+1723/tcp open   pptp
+5432/tcp closed postgresql
+8081/tcp open   blackice-icecap
+8443/tcp open   https-alt
+Device type: printer|WAP|switch
+Running (JUST GUESSING): HP embedded (91%), Netgear embedded (91%), 3Com embedded (86%), Linux 2.4.X (85%)
+OS CPE: cpe:/h:netgear:wgr614v7 cpe:/h:3com:superstack_3_switch_3870 cpe:/h:hp:procurve_switch_2524 cpe:/o:linux:linux_kernel:2.4.36
+Aggressive OS guesses: HP PSC 2400-series Photosmart printer (91%), Netgear WGR614v7 wireless broadband router (91%), 3Com SuperStack 3 Switch 3870 (86%), HP ProCurve 2524 switch or 9100c Digital Sender printer (85%), DD-WRT v24-sp1 (Linux 2.4.36) (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-72.HINET-IP.hinet.net (60.250.197.72)
+Host is up (0.012s latency).
+Not shown: 990 closed ports
+PORT      STATE    SERVICE
+80/tcp    open     http
+554/tcp   open     rtsp
+880/tcp   open     unknown
+1863/tcp  filtered msnp
+2041/tcp  filtered interbase
+8000/tcp  open     http-alt
+9010/tcp  open     sdr
+10003/tcp filtered documentum_s
+34572/tcp filtered unknown
+49152/tcp open     unknown
+Aggressive OS guesses: Linux 3.6 (95%), MikroTik RouterOS 6.35 (95%), Synology DiskStation Manager 5 (Linux) (95%), Linux 2.6.32 - 3.10 (95%), Linux 2.6.32 - 3.9 (95%), Linux 3.2 (95%), Lorex NV408 video recorder (95%), Linux 3.1 (94%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), Linux 3.10 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-73.HINET-IP.hinet.net (60.250.197.73)
+Host is up (0.014s latency).
+Not shown: 996 closed ports
+PORT      STATE    SERVICE
+1863/tcp  filtered msnp
+2323/tcp  filtered 3d-nfsd
+8994/tcp  filtered unknown
+10003/tcp filtered documentum_s
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: CipherLab 5100 time and attendance terminal (94%), Cisco SLM2008 or HP ProCurve 1800 switch (89%), Cisco SLM2008 switch (89%), Mitsubishi Q06UDEH CPU PLC module (88%), D-Link DCS-3220 webcam (88%), Hioki MEMORY HiCORDER 8855 digital oscilloscope (88%), HP iLO 2 remote management interface (88%), HP ProLiant DL320 iLO 2 remote management interface (88%), HP iLO or iLO 2 remote management interface (88%), HP ProLiant DL320s or ML310 iLO remote management interface (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-76.HINET-IP.hinet.net (60.250.197.76)
+Host is up (0.010s latency).
+All 1000 scanned ports on 60-250-197-76.HINET-IP.hinet.net (60.250.197.76) are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 60-250-197-80.HINET-IP.hinet.net (60.250.197.80)
+Host is up (0.014s latency).
+Not shown: 995 closed ports
+PORT      STATE    SERVICE
+23/tcp    open     telnet
+1723/tcp  open     pptp
+8086/tcp  filtered d-s-n
+9503/tcp  filtered unknown
+25734/tcp filtered unknown
+Device type: router
+Running: Cisco IOS 12.X
+OS CPE: cpe:/h:cisco:860_router cpe:/h:cisco:870_router cpe:/o:cisco:ios:12.4
+OS details: Cisco 860 or 870 router (IOS 12.4)
+
+Nmap scan report for 60-250-197-83.HINET-IP.hinet.net (60.250.197.83)
+Host is up (0.015s latency).
+Not shown: 995 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+113/tcp  closed ident
+541/tcp  open   uucp-rlogin
+4343/tcp open   unicall
+8080/tcp open   http-proxy
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2008|2012 (91%)
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_server_2012
+Aggressive OS guesses: Microsoft Windows Server 2008 R2 SP1 (91%), Microsoft Windows Server 2012 (86%), Microsoft Windows Server 2012 or Windows Server 2012 R2 (86%), Microsoft Windows Server 2012 R2 (86%), Microsoft Windows Server 2008 or 2008 Beta 3 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-85.HINET-IP.hinet.net (60.250.197.85)
+Host is up (0.011s latency).
+Not shown: 999 filtered ports
+PORT   STATE  SERVICE
+21/tcp closed ftp
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 60-250-197-86.HINET-IP.hinet.net (60.250.197.86)
+Host is up (0.0076s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+2200/tcp open  ici
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.13 or 4.2 (93%), Linux 3.10 - 4.8 (91%), Linux 3.18 (91%), Linux 3.2 - 4.8 (91%), Crestron XPanel control system (89%), Linux 3.16 (88%), OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7) (87%), XBMCbuntu Frodo v12.2 (Linux 3.X) (87%), HP P2000 G3 NAS device (86%), ASUS RT-N56U WAP (Linux 3.4) (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-87.HINET-IP.hinet.net (60.250.197.87)
+Host is up (0.012s latency).
+Not shown: 996 closed ports
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+22/tcp filtered ssh
+23/tcp filtered telnet
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-88.HINET-IP.hinet.net (60.250.197.88)
+Host is up (0.0062s latency).
+Not shown: 992 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+80/tcp    open     http
+2068/tcp  filtered avocentkvm
+3306/tcp  open     mysql
+8080/tcp  open     http-proxy
+8443/tcp  open     https-alt
+15004/tcp filtered unknown
+27356/tcp filtered unknown
+Aggressive OS guesses: Linux 3.18 (95%), Linux 3.2 - 4.8 (95%), Linux 3.16 (95%), ASUS RT-N56U WAP (Linux 3.4) (94%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), Linux 3.8 (93%), Linux 3.13 (92%), Roku 2 XS media player (Linux 2.6.32) (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-89.HINET-IP.hinet.net (60.250.197.89)
+Host is up (0.0097s latency).
+Not shown: 990 closed ports
+PORT      STATE    SERVICE
+21/tcp    filtered ftp
+22/tcp    filtered ssh
+23/tcp    filtered telnet
+80/tcp    filtered http
+912/tcp   filtered apex-mesh
+1122/tcp  filtered availant-mgr
+1862/tcp  filtered mysql-cm-agent
+6969/tcp  filtered acmsoda
+7496/tcp  filtered unknown
+17988/tcp filtered unknown
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 60-250-197-90.HINET-IP.hinet.net (60.250.197.90)
+Host is up (0.012s latency).
+Not shown: 994 closed ports
+PORT      STATE    SERVICE
+21/tcp    filtered ftp
+22/tcp    filtered ssh
+23/tcp    filtered telnet
+80/tcp    filtered http
+32774/tcp filtered sometimes-rpc11
+49165/tcp filtered unknown
+Too many fingerprints match this host to give specific OS details
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-99.HINET-IP.hinet.net (60.250.197.99)
+Host is up (0.0096s latency).
+Not shown: 986 closed ports
+PORT      STATE    SERVICE
+53/tcp    open     domain
+82/tcp    open     xfer
+83/tcp    filtered mit-ml-dev
+84/tcp    filtered ctf
+512/tcp   filtered exec
+554/tcp   open     rtsp
+1102/tcp  filtered adobeserver-1
+3493/tcp  filtered nut
+5859/tcp  filtered wherehoo
+7999/tcp  filtered irdmi2
+8000/tcp  open     http-alt
+8001/tcp  open     vcom-tunnel
+8443/tcp  open     https-alt
+27715/tcp filtered unknown
+Aggressive OS guesses: Linux 3.10 - 4.8 (95%), HP P2000 G3 NAS device (93%), Linux 3.13 or 4.2 (92%), Linux 3.18 (92%), Linux 3.2 - 4.8 (92%), Linux 3.13 (92%), Linux 3.16 - 4.6 (92%), Linux 4.1 (92%), Linux 4.4 (92%), Asus RT-AC66U WAP (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+
+Nmap scan report for 60-250-197-100.HINET-IP.hinet.net (60.250.197.100)
+Host is up (0.013s latency).
+Not shown: 980 closed ports
+PORT     STATE    SERVICE
+25/tcp   open     smtp
+53/tcp   open     domain
+80/tcp   open     http
+88/tcp   open     kerberos-sec
+110/tcp  open     pop3
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  open     imap
+366/tcp  open     odmr
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+587/tcp  open     submission
+1000/tcp open     cadlock
+1025/tcp open     NFS-or-IIS
+1028/tcp open     unknown
+2068/tcp filtered avocentkvm
+2718/tcp filtered pn-requester2
+3000/tcp open     ppp
+3389/tcp open     ms-wbt-server
+9535/tcp filtered man
+Device type: general purpose|storage-misc|media device
+Running (JUST GUESSING): Microsoft Windows 2003|XP|2000|PocketPC/CE (96%), LaCie embedded (91%), BT embedded (87%)
+OS CPE: cpe:/o:microsoft:windows_server_2003::sp2 cpe:/o:microsoft:windows_xp::sp3 cpe:/o:microsoft:windows_2000 cpe:/o:microsoft:windows_xp cpe:/o:microsoft:windows_ce:5.0.1400 cpe:/h:btvision:btvision%2b_box
+Aggressive OS guesses: Microsoft Windows Server 2003 SP2 (96%), Microsoft Windows XP SP3 (95%), Microsoft Windows Server 2003 (94%), Microsoft Windows Server 2003 R2 SP2 (94%), Microsoft Windows Server 2003 SP1 (94%), Microsoft Windows XP SP2 or Windows Server 2003 SP1 or SP2 (94%), Microsoft Windows 2000 or Windows Server 2003 SP1 (94%), Microsoft Windows Server 2003 SP1 or SP2 (94%), Microsoft Windows Server 2003 R2 SP1 (94%), Microsoft Windows XP (93%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-109.HINET-IP.hinet.net (60.250.197.109)
+Host is up (0.0061s latency).
+Not shown: 996 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+264/tcp open   bgmp
+443/tcp open   https
+500/tcp closed isakmp
+Device type: general purpose
+Running (JUST GUESSING): OpenBSD 4.X (89%)
+OS CPE: cpe:/o:openbsd:openbsd:4.0
+Aggressive OS guesses: OpenBSD 4.0 (89%), OpenBSD 4.3 (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-124.HINET-IP.hinet.net (60.250.197.124)
+Host is up (0.012s latency).
+Not shown: 989 closed ports
+PORT      STATE    SERVICE
+80/tcp    open     http
+82/tcp    filtered xfer
+2910/tcp  filtered tdaccess
+3580/tcp  filtered nati-svrloc
+5859/tcp  filtered wherehoo
+9002/tcp  filtered dynamid
+9103/tcp  filtered jetdirect
+9290/tcp  filtered unknown
+10626/tcp filtered unknown
+24444/tcp filtered unknown
+35500/tcp filtered unknown
+Aggressive OS guesses: Linux 3.6 (95%), MikroTik RouterOS 6.35 (95%), Synology DiskStation Manager 5 (Linux) (95%), Linux 2.6.32 - 3.10 (95%), Linux 2.6.32 - 3.9 (95%), Linux 3.2 (95%), Lorex NV408 video recorder (95%), Linux 3.1 (94%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), Linux 3.10 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-125.HINET-IP.hinet.net (60.250.197.125)
+Host is up (0.013s latency).
+Not shown: 991 filtered ports
+PORT      STATE  SERVICE
+21/tcp    open   ftp
+22/tcp    open   ssh
+80/tcp    closed http
+3306/tcp  open   mysql
+5900/tcp  closed vnc
+5901/tcp  open   vnc-1
+5904/tcp  open   unknown
+5910/tcp  closed cm
+50006/tcp open   unknown
+Aggressive OS guesses: Linux 3.10 (92%), Linux 3.4 - 3.10 (92%), Ruckus ZoneFlex R710 WAP (Linux 3.4) (92%), Synology DiskStation Manager 5.2-5644 (91%), ASUS RT-N56U WAP (Linux 3.4) (90%), Linux 2.6.32 (90%), Linux 3.5 (90%), Linux 3.8 (90%), Crestron XPanel control system (90%), Linux 3.16 (90%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-126.HINET-IP.hinet.net (60.250.197.126)
+Host is up (0.012s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+80/tcp   open     http
+1102/tcp filtered adobeserver-1
+2323/tcp open     3d-nfsd
+Aggressive OS guesses: Rebranded surveillance DVR (Hikvision, Q-SEE, EYEsurv, A1Webcams, Foscam) (95%), Linux 2.6.32 - 3.10 (93%), OpenWrt (Linux 2.4.32) (93%), OpenWrt White Russian 0.9 (Linux 2.4.30) (93%), Dahua network video recorder (92%), Linux 3.2 (92%), HIKVISION DS-7600 Linux Embedded NVR (Linux 2.6.10) (91%), Linux 3.1 (91%), Linux 2.6.32 (91%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-129.HINET-IP.hinet.net (60.250.197.129)
+Host is up (0.013s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE
+23/tcp   open     telnet
+80/tcp   open     http
+1045/tcp filtered fpitp
+1914/tcp filtered elm-momentum
+2000/tcp open     cisco-sccp
+4001/tcp filtered newoak
+6646/tcp filtered unknown
+7025/tcp filtered vmsvc-2
+Aggressive OS guesses: IBM OS/2 Warp 2.0 (88%), Allied Telesyn AT-GS950 or D-Link DES-3226L switch (87%), Printronix T5304 label printer (86%), IBM 6400 printer (software version 7.0.9.6) (86%), 3Com 3924 switch (86%), D-Link DES-3526 or DES-3550 switch (86%), D-Link DES-3526 switch (86%), D-Link DES-3550 switch (86%), D-Link DXS-3600 switch (86%), D-Link DES-3010F or DES-3010G switch (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-138.HINET-IP.hinet.net (60.250.197.138)
+Host is up (0.0063s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+443/tcp  open  https
+1723/tcp open  pptp
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.29 - 2.6.31 (91%), Linux 2.6.18 (90%), Cisco RV042 WAP (Linux 2.6) (89%), Android 1.1 (Linux 2.6.25) (88%), Linux 2.6.20-1 (Fedora Core 5) (87%), Linux 2.6.18 (CentOS 5.2) (86%), ZoneAlarm Z100G WAP (86%), ISS Proventia GX3002 firewall (Linux 2.4.18) (86%), Linux 2.6.27 (86%), Linux 2.6.30 (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-142.HINET-IP.hinet.net (60.250.197.142)
+Host is up (0.0098s latency).
+Not shown: 996 filtered ports
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+113/tcp closed ident
+443/tcp open   https
+541/tcp open   uucp-rlogin
+OS fingerprint not ideal because: maxTimingRatio (3.838000e+00) is greater than 1.4
+No OS matches for host
+
+Nmap scan report for 60-250-197-145.HINET-IP.hinet.net (60.250.197.145)
+Host is up (0.021s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+113/tcp closed ident
+443/tcp open   https
+Device type: general purpose
+Running (JUST GUESSING): FreeBSD 6.X (89%), Microsoft Windows 2008 (85%)
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:microsoft:windows_server_2008:r2:sp1
+Aggressive OS guesses: FreeBSD 6.2-RELEASE (89%), Microsoft Windows Server 2008 R2 SP1 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-156.HINET-IP.hinet.net (60.250.197.156)
+Host is up (0.024s latency).
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+80/tcp  open     http
+524/tcp filtered ncp
+554/tcp open     rtsp
+Device type: specialized|media device|general purpose|WAP|broadband router|webcam
+Running (JUST GUESSING): Linux 3.X|2.6.X|2.4.X (95%), Dahua embedded (92%), Hikvision embedded (91%)
+OS CPE: cpe:/o:linux:linux_kernel cpe:/o:linux:linux_kernel:3.0 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:2.4.32 cpe:/o:linux:linux_kernel:2.6.10 cpe:/h:hikvision:ds-7600 cpe:/o:linux:linux_kernel:2.6.17
+Aggressive OS guesses: Rebranded surveillance DVR (Hikvision, Q-SEE, EYEsurv, A1Webcams, Foscam) (95%), Linux 3.0 (94%), Linux 2.6.32 - 3.10 (93%), OpenWrt (Linux 2.4.32) (93%), OpenWrt White Russian 0.9 (Linux 2.4.30) (93%), Dahua network video recorder (92%), Linux 3.2 (92%), Linux 2.6.32 (92%), HIKVISION DS-7600 Linux Embedded NVR (Linux 2.6.10) (91%), Linux 3.1 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-157.HINET-IP.hinet.net (60.250.197.157)
+Host is up (0.013s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+443/tcp  open  https
+1723/tcp open  pptp
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7) (94%), XBMCbuntu Frodo v12.2 (Linux 3.X) (92%), Linux 2.6.32 (92%), Linux 2.6.32 - 3.1 (92%), Linux 3.10 (92%), Linux 3.2 (92%), Linux 3.4 - 3.10 (92%), Linux 3.8 (92%), Ruckus ZoneFlex R710 WAP (Linux 3.4) (92%), Linux 2.6.32 - 3.10 (91%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-158.HINET-IP.hinet.net (60.250.197.158)
+Host is up (0.013s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE
+80/tcp   open     http
+458/tcp  filtered appleqtc
+543/tcp  filtered klogin
+2065/tcp filtered dlsrpn
+3871/tcp filtered avocent-adsap
+6009/tcp filtered X11:9
+Aggressive OS guesses: Linksys WRV54G WAP (97%), Linux 2.4.18 - 2.4.35 (likely embedded) (95%), Linux 2.6.9 - 2.6.33 (95%), OpenWrt White Russian 0.9 (Linux 2.4.30) (95%), Android 1.5 - 1.6 (Linux 2.6.27) (95%), 3Com OfficeConnect 3CRWER100-75 wireless router (94%), DD-WRT v24 (Linux 2.6.22) (94%), Linux 2.4.33 (embedded) (94%), Linksys RV042 router (94%), Aruba 3400 or 6000 wireless LAN controller (ArubaOS 3.3.2) (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-160.HINET-IP.hinet.net (60.250.197.160)
+Host is up (0.017s latency).
+Not shown: 993 filtered ports
+PORT      STATE  SERVICE
+22/tcp    closed ssh
+23/tcp    closed telnet
+53/tcp    closed domain
+80/tcp    open   http
+443/tcp   open   https
+2005/tcp  closed deslogin
+49152/tcp closed unknown
+Device type: WAP|general purpose|phone|media device
+Running (JUST GUESSING): Linksys embedded (97%), Linux 2.4.X|2.6.X (95%), Google Android 1.X (94%), 3Com embedded (94%), LifeSize embedded (94%)
+OS CPE: cpe:/h:linksys:wrv54g cpe:/o:linux:linux_kernel:2.4 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.4.30 cpe:/o:google:android:1 cpe:/o:linux:linux_kernel:2.6.27 cpe:/h:3com:officeconnect_3crwer100-75 cpe:/o:linux:linux_kernel:2.6.22
+Aggressive OS guesses: Linksys WRV54G WAP (97%), Linux 2.4.18 - 2.4.35 (likely embedded) (95%), Linux 2.6.9 - 2.6.33 (95%), OpenWrt White Russian 0.9 (Linux 2.4.30) (94%), Android 1.5 - 1.6 (Linux 2.6.27) (94%), 3Com OfficeConnect 3CRWER100-75 wireless router (94%), DD-WRT v24 (Linux 2.6.22) (94%), Linux 2.4.33 (embedded) (94%), LifeSize video conferencing system or ShoreTel 8800 VoIP phone (Linux 2.4) (94%), AVM FRITZ!Box FON WLAN 7240 WAP (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-161.HINET-IP.hinet.net (60.250.197.161)
+Host is up (0.022s latency).
+Not shown: 720 closed ports, 273 filtered ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+110/tcp open  pop3
+111/tcp open  rpcbind
+143/tcp open  imap
+993/tcp open  imaps
+995/tcp open  pop3s
+Device type: general purpose|firewall|proxy server
+Running (JUST GUESSING): Linux 2.6.X (89%), FreeBSD 6.X (86%), Cisco embedded (85%), Riverbed embedded (85%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:freebsd:freebsd:6.2 cpe:/o:linux:linux_kernel:2.6 cpe:/h:cisco:sa520 cpe:/h:riverbed:steelhead_200
+Aggressive OS guesses: Linux 2.6.32 (89%), Linux 2.6.18 (88%), Linux 2.6.9 - 2.6.18 (86%), FreeBSD 6.2-RELEASE (86%), Linux 2.6.9 (86%), Oracle Enterprise Linux 6 (Linux 2.6.32) (85%), Linux 2.6.22.1-32.fc6 (x86, SMP) (85%), Cisco SA520 firewall (Linux 2.6) (85%), Linux 2.6.11 (85%), Linux 2.6.28 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-162.HINET-IP.hinet.net (60.250.197.162)
+Host is up (3.4s latency).
+All 1000 scanned ports on 60-250-197-162.HINET-IP.hinet.net (60.250.197.162) are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 60-250-197-166.HINET-IP.hinet.net (60.250.197.166)
+Host is up (0.028s latency).
+Not shown: 993 filtered ports
+PORT      STATE  SERVICE
+22/tcp    closed ssh
+23/tcp    closed telnet
+53/tcp    closed domain
+80/tcp    open   http
+443/tcp   open   https
+2005/tcp  closed deslogin
+49152/tcp closed unknown
+Aggressive OS guesses: Linksys WRV54G WAP (97%), Linux 2.4.18 - 2.4.35 (likely embedded) (95%), Linux 2.6.9 - 2.6.33 (95%), Linux 2.6.17 (ZyXEL NWA570N WAP) (95%), OpenWrt White Russian 0.9 (Linux 2.4.30) (94%), Extreme Networks switch (ExtremeXOS 15 - 16) (94%), Android 1.5 - 1.6 (Linux 2.6.27) (94%), 3Com OfficeConnect 3CRWER100-75 wireless router (94%), DD-WRT v24 (Linux 2.6.22) (94%), Linux 2.4.33 (embedded) (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-167.HINET-IP.hinet.net (60.250.197.167)
+Host is up (0.021s latency).
+Not shown: 995 filtered ports
+PORT    STATE  SERVICE
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+993/tcp closed imaps
+995/tcp closed pop3s
+Aggressive OS guesses: Linux 2.6.24 (92%), Endian 2.3 or IPCop firewall 1.4.10 - 1.4.21 (Linux 2.4.31 - 2.6.22) (92%), ZyXEL ZyWALL USG 20 or USG 50 firewall (ZyNOS 2.21) (92%), Avaya Communication Manager (Linux 2.6.11) (91%), Linux 2.4.21 (91%), Linux 2.6.24 (Gentoo) (91%), OpenWrt Backfire 10.03.1 (Linux 2.6) (91%), USRobotics USR5450 WAP (90%), OpenWrt (Linux 2.4.32) (90%), Citrix Access Gateway VPN gateway (89%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for mail.cccccc.com.tw (60.250.197.169)
+Host is up (0.099s latency).
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE
+21/tcp   open   ftp
+25/tcp   open   smtp
+80/tcp   open   http
+110/tcp  open   pop3
+113/tcp  closed ident
+143/tcp  open   imap
+2222/tcp open   EtherNetIP-1
+8080/tcp open   http-proxy
+8088/tcp open   radan-http
+Aggressive OS guesses: Nokia E70 or N86 mobile phone (Symbian OS) (95%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (92%), Tomato 1.27 - 1.28 (Linux 2.4.20) (89%), Linux 3.2.0 (89%), MikroTik RouterOS 6.15 (Linux 3.3.5) (89%), Blue Coat PacketShaper appliance (87%), Sony FWD-40LX2F display card (87%), Polycom MGC-25 videoconferencing system (pSOS 1.0.4) (86%), Siemens Simatic 300 programmable logic controller (86%), Wyse ThinOS 5.2 (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-173.HINET-IP.hinet.net (60.250.197.173)
+Host is up (0.020s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+443/tcp  open  https
+1723/tcp open  pptp
+8443/tcp open  https-alt
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Android 1.1 (Linux 2.6.25) (91%), Linux 2.6.18 (91%), Linux 2.6.29 - 2.6.31 (91%), Cisco RV042 WAP (Linux 2.6) (91%), Linux 2.6.20-1 (Fedora Core 5) (87%), Linux 2.6.9-022stab078.19-enterprise (CentOS 4.2 x86) (86%), AVM FRITZ!Box FON WLAN 7170 WAP (Linux 2.6.13) (86%), Ubiquity AirOS (Linux) (86%), Linux 2.6.27 (86%), Linux 2.6.30 (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-174.HINET-IP.hinet.net (60.250.197.174)
+Host is up (0.020s latency).
+Not shown: 992 closed ports
+PORT      STATE    SERVICE
+53/tcp    open     domain
+443/tcp   open     https
+1086/tcp  filtered cplscrambler-lg
+1862/tcp  filtered mysql-cm-agent
+2191/tcp  filtered tvbus
+10180/tcp filtered unknown
+17988/tcp filtered unknown
+49157/tcp filtered unknown
+Aggressive OS guesses: DD-WRT v24-sp1 (Linux 2.4.36) (96%), Linux 2.6.23 - 2.6.38 (95%), Linux 2.6.32 (95%), Linux 2.6.31 (94%), HP P2000 G3 NAS device (93%), Linux 2.6.22 (93%), Linux 2.6.26 - 2.6.35 (93%), Linux 2.6.31 - 2.6.32 (93%), LG Smart TV LS570S (Linux 2.6) (93%), D-Link DIR-600 or DIR-645 WAP (Linux 2.6.33) (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 7 hops
+
+Nmap scan report for m2comm-semi.com (60.250.197.175)
+Host is up (0.0058s latency).
+Not shown: 996 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+113/tcp closed ident
+443/tcp open   https
+541/tcp open   uucp-rlogin
+OS fingerprint not ideal because: maxTimingRatio (3.654000e+00) is greater than 1.4
+No OS matches for host
+
+Nmap scan report for mail.m2comm-semi.com (60.250.197.176)
+Host is up (0.0060s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE
+25/tcp  open   smtp
+110/tcp open   pop3
+113/tcp closed ident
+143/tcp open   imap
+443/tcp open   https
+993/tcp open   imaps
+995/tcp open   pop3s
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2008|7|Vista (99%)
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_8
+Aggressive OS guesses: Microsoft Windows Server 2008 R2 SP1 (99%), Microsoft Windows 7 SP1 or Windows Server 2008 R2 (93%), Microsoft Windows Server 2008 (92%), Microsoft Windows Server 2008 R2 (91%), Microsoft Windows 7 SP1 (91%), Microsoft Windows Server 2008 or 2008 Beta 3 (91%), Microsoft Windows 7 (91%), Microsoft Windows 7 SP1 or Windows Server 2008 SP2 or 2008 R2 SP1 (91%), Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7 (91%), Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008 (91%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-181.HINET-IP.hinet.net (60.250.197.181)
+Host is up (0.0063s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+443/tcp  open  https
+1723/tcp open  pptp
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: router
+Running (JUST GUESSING): Linksys embedded (89%)
+Aggressive OS guesses: Linksys BEFSR41 EtherFast router (89%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-182.HINET-IP.hinet.net (60.250.197.182)
+Host is up (0.0061s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+443/tcp  open  https
+1723/tcp open  pptp
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linksys BEFSR41 EtherFast router (91%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (90%), OneAccess 1641 router (89%), Mitsubishi Q06UDEH CPU PLC module (88%), Motorola 2210-02 ADSL modem (88%), Netopia 3366 ADSL router (88%), Cisco Catalyst 1900 Switch, Software v9.00.03 (86%), HP ProLiant BL p-Class C-Gbe2 switch (86%), Netopia 3386 ADSL router (86%), AVtech Room Alert 26W environmental monitor (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+
+Nmap scan report for 60-250-197-183.HINET-IP.hinet.net (60.250.197.183)
+Host is up (0.0056s latency).
+Not shown: 991 closed ports
+PORT      STATE    SERVICE
+80/tcp    open     http
+1862/tcp  filtered mysql-cm-agent
+2000/tcp  open     cisco-sccp
+2191/tcp  filtered tvbus
+2910/tcp  filtered tdaccess
+8291/tcp  open     unknown
+9002/tcp  filtered dynamid
+17988/tcp filtered unknown
+35500/tcp filtered unknown
+Aggressive OS guesses: Lorex NV408 video recorder (95%), MikroTik RouterOS 6.35 (95%), Linux 2.6.32 - 3.10 (95%), Linux 2.6.32 - 3.9 (95%), Linux 3.2 (95%), Linux 3.6 (95%), Synology DiskStation Manager 5 (Linux) (95%), Linux 3.1 (94%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), Linux 3.10 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-187.HINET-IP.hinet.net (60.250.197.187)
+Host is up (0.038s latency).
+Not shown: 995 filtered ports
+PORT     STATE  SERVICE
+23/tcp   closed telnet
+443/tcp  open   https
+1723/tcp open   pptp
+8080/tcp open   http-proxy
+8088/tcp open   radan-http
+Device type: general purpose|WAP|phone|media device|firewall
+Running (JUST GUESSING): Linux 2.6.X|2.4.X (93%), Cisco embedded (93%), Google Android 1.X (88%), Sony embedded (88%), ISS embedded (85%), Check Point GAiA OS (85%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.18 cpe:/o:linux:linux_kernel:2.6 cpe:/h:cisco:rv042 cpe:/o:google:android:1.1 cpe:/o:linux:linux_kernel:2.6.25 cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:iss:proventia_gx3002 cpe:/o:checkpoint:gaia_os
+Aggressive OS guesses: Linux 2.6.18 (93%), Cisco RV042 WAP (Linux 2.6) (93%), Linux 2.6.29 - 2.6.31 (91%), Android 1.1 (Linux 2.6.25) (88%), Linux 2.6.26 (88%), Linux 2.6.22 (88%), Linux 2.6.9 - 2.6.27 (88%), Sony Bravia HX720-series TV (88%), Linux 2.6.31 (87%), DD-WRT (Linux 2.6.23, MIPS) (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-193.HINET-IP.hinet.net (60.250.197.193)
+Host is up (0.041s latency).
+Not shown: 996 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+113/tcp closed ident
+443/tcp open   https
+541/tcp open   uucp-rlogin
+Device type: general purpose
+Running (JUST GUESSING): Linux 3.X (87%)
+OS CPE: cpe:/o:linux:linux_kernel:3
+Aggressive OS guesses: Linux 3.2 - 3.8 (87%), Linux 3.6 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-194.HINET-IP.hinet.net (60.250.197.194)
+Host is up (0.024s latency).
+Not shown: 994 filtered ports
+PORT    STATE  SERVICE
+25/tcp  open   smtp
+80/tcp  open   http
+110/tcp open   pop3
+113/tcp closed ident
+443/tcp open   https
+541/tcp open   uucp-rlogin
+Device type: general purpose
+Running (JUST GUESSING): Linux 3.X (87%), FreeBSD 6.X (85%)
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:freebsd:freebsd:6.2
+Aggressive OS guesses: Linux 3.2 - 3.8 (87%), FreeBSD 6.2-RELEASE (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-195.HINET-IP.hinet.net (60.250.197.195)
+Host is up (0.024s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+113/tcp closed ident
+443/tcp open   https
+541/tcp open   uucp-rlogin
+Device type: general purpose
+Running (JUST GUESSING): Linux 3.X (86%), OpenBSD 4.X (85%)
+OS CPE: cpe:/o:linux:linux_kernel:3.6 cpe:/o:openbsd:openbsd:4.0
+Aggressive OS guesses: Linux 3.6 (86%), OpenBSD 4.0 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-199.HINET-IP.hinet.net (60.250.197.199)
+Host is up (0.0058s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+113/tcp  closed ident
+443/tcp  open   https
+541/tcp  open   uucp-rlogin
+3389/tcp open   ms-wbt-server
+3390/tcp open   dsc
+8080/tcp open   http-proxy
+8800/tcp open   sunwebadmin
+Device type: general purpose|storage-misc
+Running (JUST GUESSING): Linux 3.X|4.X|2.6.X (89%), Synology DiskStation Manager 5.X (85%)
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4.4 cpe:/o:linux:linux_kernel cpe:/a:synology:diskstation_manager:5.1 cpe:/o:linux:linux_kernel:2.6.32
+Aggressive OS guesses: Linux 3.10 - 3.12 (89%), Linux 4.4 (89%), Linux 4.0 (87%), Linux 3.10 (86%), Synology DiskStation Manager 5.1 (85%), Linux 2.6.32 (85%), Linux 2.6.32 or 3.10 (85%), Linux 2.6.39 (85%), Linux 2.6.37 (85%), Linux 3.18 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-208.HINET-IP.hinet.net (60.250.197.208)
+Host is up (0.0059s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+80/tcp   open     http
+2000/tcp open     cisco-sccp
+3077/tcp filtered orbix-loc-ssl
+8291/tcp open     unknown
+Aggressive OS guesses: Lorex NV408 video recorder (95%), Linux 2.6.32 - 3.10 (95%), Linux 2.6.32 - 3.9 (95%), Linux 3.2 (95%), Linux 3.6 (95%), MikroTik RouterOS 6.35 (95%), Linux 3.1 (94%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), Linux 3.0 (94%), Linux 3.10 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-209.HINET-IP.hinet.net (60.250.197.209)
+Host is up (0.0065s latency).
+All 1000 scanned ports on 60-250-197-209.HINET-IP.hinet.net (60.250.197.209) are closed (845) or filtered (155)
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 60-250-197-210.HINET-IP.hinet.net (60.250.197.210)
+Host is up (0.0060s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+443/tcp  open  https
+1723/tcp open  pptp
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: router
+Running (JUST GUESSING): Linksys embedded (89%)
+Aggressive OS guesses: Linksys BEFSR41 EtherFast router (89%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-211.HINET-IP.hinet.net (60.250.197.211)
+Host is up (0.00042s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+113/tcp closed ident
+443/tcp open   https
+Device type: general purpose
+Running (JUST GUESSING): Linux 3.X (85%)
+OS CPE: cpe:/o:linux:linux_kernel:3
+Aggressive OS guesses: Linux 3.2 - 3.8 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-212.HINET-IP.hinet.net (60.250.197.212)
+Host is up (0.00054s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+113/tcp closed ident
+443/tcp open   https
+OS fingerprint not ideal because: maxTimingRatio (1.608000e+00) is greater than 1.4
+No OS matches for host
+
+Nmap scan report for mail.exojet.com.tw (60.250.197.217)
+Host is up (0.00065s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+113/tcp closed ident
+Device type: general purpose
+Running (JUST GUESSING): OpenBSD 4.X (86%)
+OS CPE: cpe:/o:openbsd:openbsd:4.3
+Aggressive OS guesses: OpenBSD 4.3 (86%), OpenBSD 4.0 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for mail.exojet.com.tw (60.250.197.218)
+Host is up (0.0051s latency).
+All 1000 scanned ports on mail.exojet.com.tw (60.250.197.218) are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 60-250-197-220.HINET-IP.hinet.net (60.250.197.220)
+Host is up (0.0039s latency).
+All 1000 scanned ports on 60-250-197-220.HINET-IP.hinet.net (60.250.197.220) are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 60-250-197-221.HINET-IP.hinet.net (60.250.197.221)
+Host is up (0.00043s latency).
+Not shown: 997 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+113/tcp  closed ident
+1720/tcp open   h323q931
+Aggressive OS guesses: 3Com Baseline Switch 2250-SFP Plus (98%), HP 1905 switch (98%), D-Link DIR-100 DSL router or Motorola Canopy cluster management module 2.2 (98%), D-Link DWL-G710 WAP (96%), Digitus DN-13008 or Sitecom print server (95%), Linksys WET54G wireless bridge or Red-M Communications Red-Alert PRO wireless activity detector (94%), Asus RX4031 or TRENDnet TW100-S4W1CA router (94%), WowWee Rovio mobile webcam (92%), TenAsys iRMX III 2.2 (91%), IBM OS/2 Warp 2.0 (90%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-225.HINET-IP.hinet.net (60.250.197.225)
+Host is up (0.00060s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+23/tcp   open  telnet
+80/tcp   open  http
+443/tcp  open  https
+1723/tcp open  pptp
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Bell Labs Plan 9 4th edition (88%), Bell Labs Plan 9 edition (88%), DrayTek Vigor 2930n wireless router (88%), Netopia 3387WG-ENT broadband router (88%), Netopia 3300-series ADSL router (88%), Netopia 3346N-VGx ADSL router (88%), Linksys SPA901, SPA921, or SPA 941 SIP VoIP phone (86%), Linksys SPA942 VoIP phone (86%), Linksys SPA942, SPA962, SPA8000 or SPA9000 VoIP phone; SPA3102 VoIP adapter; or Sipura SPA-2100-series VoIP adapter (86%), Sipura SPA1001 or SPA3000 VoIP adapter (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+
+Nmap scan report for shark.ais3.org (60.250.197.227)
+Host is up (0.00047s latency).
+rDNS record for 60.250.197.227: 60-250-197-227.HINET-IP.hinet.net
+Not shown: 997 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+443/tcp   open  https
+10002/tcp open  documentum
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.32 (90%), Crestron XPanel control system (89%), HP P2000 G3 NAS device (86%), ASUS RT-N56U WAP (Linux 3.4) (86%), Linux 3.1 (86%), Linux 3.16 (86%), Linux 3.2 (86%), OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7) (86%), Linux 3.13 (86%), Linux 3.13 or 4.2 (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-228.HINET-IP.hinet.net (60.250.197.228)
+Host is up (0.0030s latency).
+All 1000 scanned ports on 60-250-197-228.HINET-IP.hinet.net (60.250.197.228) are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 60-250-197-232.HINET-IP.hinet.net (60.250.197.232)
+Host is up (0.015s latency).
+Not shown: 915 closed ports, 77 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+1723/tcp open  pptp
+2601/tcp open  zebra
+8443/tcp open  https-alt
+9090/tcp open  zeus-admin
+Aggressive OS guesses: OpenWrt Kamikaze 7.09 (Linux 2.6.22) (95%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (93%), OpenWrt White Russian 0.9 (Linux 2.4.30) (93%), OpenWrt Attitude Adjustment (Linux 3.3) - Barrier Breaker (Linux 3.8) (93%), OpenWrt Chaos Calmer (Linux 3.10 - 3.14) (93%), OpenWrt Barrier Breaker (Linux 3.10) (93%), Asus RT-AC66U router (Linux 2.6) (92%), Asus RT-N16 WAP (Linux 2.6) (92%), Asus RT-N66U WAP (Linux 2.6) (92%), Tomato 1.28 (Linux 2.6.22) (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-233.HINET-IP.hinet.net (60.250.197.233)
+Host is up (0.014s latency).
+Not shown: 920 closed ports, 74 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+1080/tcp open  socks
+5000/tcp open  upnp
+8443/tcp open  https-alt
+9080/tcp open  glrpc
+Aggressive OS guesses: Linux 2.6.32 - 3.10 (95%), Linux 2.6.32 - 3.9 (95%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (94%), Linux 2.6.18 (94%), AXIS 211A Network Camera (Linux 2.6.20) (94%), Linux 2.6.24 (94%), Linksys WRV54G WAP (94%), Linux 2.6.16 (94%), OpenWrt Barrier Breaker (Linux 3.10) (94%), Linux 3.10 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-234.HINET-IP.hinet.net (60.250.197.234)
+Host is up (0.014s latency).
+Not shown: 922 closed ports, 75 filtered ports
+PORT     STATE SERVICE
+23/tcp   open  telnet
+80/tcp   open  http
+5060/tcp open  sip
+Aggressive OS guesses: Linksys WRV54G WAP (99%), Linux 2.6.14 - 2.6.30 (96%), Cisco Unified Wireless IP Phone 7925G (95%), Extreme Networks switch (ExtremeXOS 15 - 16) (95%), Linux 2.4.18 - 2.4.35 (likely embedded) (95%), Linux 2.6.9 - 2.6.33 (95%), Linux 2.6.22 (95%), Grandstream GXP1400 VoIP phone (95%), Linux 2.6.17 (ZyXEL NWA570N WAP) (95%), Linksys RV042 router (95%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-235.HINET-IP.hinet.net (60.250.197.235)
+Host is up (0.0058s latency).
+Not shown: 922 closed ports, 75 filtered ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+80/tcp open  http
+Aggressive OS guesses: HP P2000 G3 NAS device (96%), Infoblox Trinzic network control appliance (95%), Kyocera ECOSYS M2030dn printer (95%), Check Point VPN-1 UTM appliance (95%), Linux 2.6.32 (95%), Synology DiskStation Manager 3.2 or Priva heating control manager (Linux 2.6.32) (95%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (95%), Linux 3.1 (94%), Linux 3.2 (94%), AVM FRITZ!Box (FritzOS 6.03) (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-236.HINET-IP.hinet.net (60.250.197.236)
+Host is up (0.0057s latency).
+Not shown: 926 closed ports, 72 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+83/tcp open  mit-ml-dev
+Device type: specialized|general purpose|WAP|media device|broadband router|load balancer
+Running (JUST GUESSING): Linux 2.6.X|3.X|2.4.X (95%), Hikvision embedded (93%), Dahua embedded (92%), Kemp embedded (92%)
+OS CPE: cpe:/o:linux:linux_kernel cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:2.6.10 cpe:/h:hikvision:ds-7600 cpe:/o:linux:linux_kernel:2.4.32 cpe:/o:linux:linux_kernel:3.0 cpe:/h:kemp:loadmaster_2500
+Aggressive OS guesses: Rebranded surveillance DVR (Hikvision, Q-SEE, EYEsurv, A1Webcams, Foscam) (95%), Linux 2.6.32 - 3.10 (93%), HIKVISION DS-7600 Linux Embedded NVR (Linux 2.6.10) (93%), OpenWrt (Linux 2.4.32) (93%), OpenWrt White Russian 0.9 (Linux 2.4.30) (93%), Linux 2.6.32 (93%), Dahua network video recorder (92%), OpenWrt (Linux 3.0) (92%), OpenWrt (Linux 3.2) (92%), Linux 3.2 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+
+Nmap scan report for 60-250-197-237.HINET-IP.hinet.net (60.250.197.237)
+Host is up (0.0012s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+443/tcp  open  https
+1723/tcp open  pptp
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|storage-misc|firewall
+Running (JUST GUESSING): Linux 2.6.X|3.X (89%), Synology DiskStation Manager 5.X (88%), WatchGuard Fireware 11.X (87%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:3.10 cpe:/o:linux:linux_kernel cpe:/a:synology:diskstation_manager:5.1 cpe:/o:watchguard:fireware:11.8
+Aggressive OS guesses: Linux 2.6.32 or 3.10 (89%), Synology DiskStation Manager 5.1 (88%), Linux 2.6.32 (87%), Linux 2.6.39 (87%), WatchGuard Fireware 11.8 (87%), Linux 3.1 - 3.2 (87%), Linux 3.10 (86%), Linux 3.4 (86%), Linux 2.6.32 - 2.6.39 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-238.HINET-IP.hinet.net (60.250.197.238)
+Host is up (0.0029s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+
+Nmap scan report for 60-250-197-239.HINET-IP.hinet.net (60.250.197.239)
+Host is up (0.015s latency).
+Not shown: 917 closed ports, 76 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+81/tcp   open  hosts2-ns
+443/tcp  open  https
+1080/tcp open  socks
+5000/tcp open  upnp
+9999/tcp open  abyss
+Aggressive OS guesses: OpenWrt Kamikaze 7.09 (Linux 2.6.22) (98%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (97%), OpenWrt White Russian 0.9 (Linux 2.4.30) (97%), OpenWRT Attitude Adjustment 12.09 (Linux 3.3) (95%), Linux 3.0 (95%), Asus RT-AC66U router (Linux 2.6) (94%), Asus RT-N16 WAP (Linux 2.6) (94%), Asus RT-N66U WAP (Linux 2.6) (94%), Tomato 1.28 (Linux 2.6.22) (94%), Linux 2.4.18 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+
+Nmap scan report for 60-250-197-240.HINET-IP.hinet.net (60.250.197.240)
+Host is up (0.0030s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp closed https
+554/tcp open   rtsp
+Aggressive OS guesses: Linux 3.13 or 4.2 (94%), Linux 3.10 - 4.8 (94%), HP P2000 G3 NAS device (93%), Linux 4.1 (93%), Asus RT-AC66U WAP (93%), Linux 4.4 (92%), Linux 3.16 - 4.6 (91%), Linux 3.18 (90%), Linux 3.2 - 4.8 (90%), DD-WRT v3.0 (Linux 4.4.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 60-250-197-242.HINET-IP.hinet.net (60.250.197.242)
+Host is up (0.016s latency).
+Not shown: 923 closed ports, 76 filtered ports
+PORT     STATE SERVICE
+1723/tcp open  pptp
+Aggressive OS guesses: OpenWrt White Russian 0.9 (Linux 2.4.30) (95%), OpenWrt Kamikaze 8.09 (Linux 2.6.25 - 2.6.26) (95%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (95%), OpenWrt Kamikaze 8.09 (Linux 2.4.35.4) (94%), Linux 2.6.32 (94%), Linux 3.0.0 (94%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (94%), HP P2000 G3 NAS device (93%), Linux 2.4.18 (93%), Thecus N8800PRO NAS device (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+
+Nmap scan report for 60-250-197-244.HINET-IP.hinet.net (60.250.197.244)
+Host is up (0.0060s latency).
+All 1000 scanned ports on 60-250-197-244.HINET-IP.hinet.net (60.250.197.244) are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 60-250-197-254.HINET-IP.hinet.net (60.250.197.254)
+Host is up (0.0058s latency).
+All 1000 scanned ports on 60-250-197-254.HINET-IP.hinet.net (60.250.197.254) are filtered
+Too many fingerprints match this host to give specific OS details
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (85 hosts up) scanned in 8175.48 seconds
+ user@ubuntu  ~/ais3/Shichirou  

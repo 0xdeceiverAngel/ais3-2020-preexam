@@ -1,0 +1,39 @@
+{"output":"<!DOCTYPE html>
+
+<head>
+  <title>\ud83d\udc3f\ufe0f\ud83d\udc3f\ufe0f\ud83d\udc3f\ufe0f\ud83d\udc3f\ufe0f\ud83d\udc3f\ufe0f<\/title>
+  <meta charset=\"utf-8\">
+  <link rel=\"stylesheet\" href=\"css\/style.css\">
+<\/head>
+
+<body>
+  <template id=\"squirrel-template\">
+    <div class=\"squirrel\">
+      <div class=\"icon\">\ud83d\udc3f\ufe0f<\/div>
+      <div class=\"name\">squirrel<\/div>
+    <\/div>
+  <\/template>
+
+  <script src=\"js\/squirrel.js\"><\/script>
+  <script>
+    const squirrelFile = '\/etc\/passwd';
+
+    fetch('api.php?get=' + encodeURIComponent(squirrelFile))
+      .then(res => res.json())
+      .then(data => {
+        if ('error' in data) {
+          throw data.error;
+        }
+        data.output.split('\
+')
+          .map(line => line.split(':')[0].trim())
+          .filter(name => name.length)
+          .forEach(name => new Squirrel(name).update());
+      })
+      .catch(err => {
+        console.log(err);
+        alert('Something went wrong! Please report this to the author!');
+      });
+  <\/script>
+<\/body>
+"}
