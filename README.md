@@ -329,3 +329,48 @@ js 是 弱型別
 >curl ip -I
 
 送回去就好
+## reverse
+### TsaiBro
+去年的考古題
+
+就是tap code 有表可以對應回去
+
+有人的解法是爆破開來 找到每個英文字對應的 反推回去
+
+### Fallen Beat
+說真的 已經忘記當初怎麼解了
+
+我記得一開始是 改 hell.txt 但發現好像不行
+
+反編譯 找到flag 有定義 他有跟cache做加密  
+
+找到cache 是讀hell.txt 所以解密就好 
+
+當初的腳本不知道跑去哪裡了
+### Stand up!Brain
+先逆向 發現只吃最多6個字
+
+所以理論上可以暴力 但是我沒做
+
+offical 說 這題是 Brainfuck interpreter
+
+把 裡面的 brainfuck 的東西 挖出來
+
+跑起來發現沒用 觀察到最後面有一堆] 把它去掉 開頭也對應去掉
+
+剩下的用線上工具跑起來就是flag了
+### Long Island Iced Tea
+打開ida看 會發現這是一題加密題
+
+他會先做zero pading  在加密 XTEA
+
+他只有對第一塊做加密而已 9次 
+
+另一種解法 因為只有第一塊有加密
+
+所以可以先還原出後面的東西 前面固定有AIS3{
+
+剩下的爆破就好 
+
+參見官方解
+###  La vie en rose
