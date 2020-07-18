@@ -374,3 +374,22 @@ offical 說 這題是 Brainfuck interpreter
 
 參見官方解
 ###  La vie en rose
+給你個exe檔 一看icon 就是用python 寫的
+
+如果不知道就看他用了哪些api 你會發現它是用3.8
+
+嘖 這題看官解比較好 
+### Uroboros
+看官解
+
+## Crypto
+### Brontosaurus
+
+就去年的題目 jsfuck
+
+把它給你東西反轉過來 執行就會噴flag了
+
+### T-Rex
+就是他有給你表 對應出來就好了
+
+### 
