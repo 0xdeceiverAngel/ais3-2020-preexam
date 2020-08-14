@@ -49,7 +49,7 @@
 /*     */   
 /*     */   int delay;
 /*     */   int initY;
-/*     */   long spf;
+/*     */   long spf;Fallen Beat
 /*  53 */   int[] key = new int[] { 68, 70, 74, 75, 32 };
 /*     */   
 /*     */   ArrayList<ArrayList<Integer>> check;

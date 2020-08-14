@@ -1,5 +1,4 @@
 # AIS pre-exam 2020 writeup
-# pwn is nor over
 ## misc
 ### Piquero
 這題就是盲人編碼 點字
@@ -92,6 +91,36 @@ http://ref.x86asm.net/coder32.html#x0F01
 有時候leak出來的東西不知道為啥會接不到 要recvline(2)
 
 就是用rop leak lic 然後上面三種方法選一個 
+### Morty school
+它有給你libc 並且程式跑起來有給puts的位置
+```
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      No PIE
+```
+可以先算出libc base的位置
+
+接著發現它input要挑哪個morty時 沒有判斷
+
+![](https://github.com/0xdeciverAngel/ais3-2020-preexam/blob/master/morty_school%20(3).jpg?raw=true)
+
+`v2 = read(0, *(void **)(v4 = (__int64)&unk_6020A0 + input*24 + 0x10), 0x100uLL);`
+
+所以可以給位置 寫上你給它的位置上的地址的值
+
+雙重指標就是了 
+
+這樣就可以hijack `__stack_chk_fail got `的位址
+
+把它的got改成rop  之後觸發canary 就好了
+
+![](https://github.com/0xdeciverAngel/ais3-2020-preexam/blob/master/morty_school%20(2).jpg?raw=true)
+![](https://github.com/0xdeciverAngel/ais3-2020-preexam/blob/master/morty_school%20(1).jpg?raw=true)
+*我不確定是不是先讓*
+
+
 ## web 
 ### Squirrel 
 知道是command inj 但是不知道要去哪裡撈資料
@@ -392,4 +421,25 @@ offical 說 這題是 Brainfuck interpreter
 ### T-Rex
 就是他有給你表 對應出來就好了
 
-### 
+### Octopus
+BB84 qkd 兩邊的basis qubits都有給 
+
+basis都一樣的quibit弄出來 解碼就好
+
+### blowfish 
+給原始碼跟 `user.pickle` 把 `user.pickle` 印出來
+
+```
+[{'name': 'maojui', 'password': 'SECRET', 'admin': False}, 
+{'name': 'djosix', 'password': 'S3crE7', 'admin': False}, 
+{'name': 'kaibro', 'password': 'GGInIn', 'admin': False}, 
+{'name': 'others', 'password': '_FLAG_', 'admin': False}]
+```
+因為適用crt加密 且他東西有給齊 所以可以把key搞出來
+
+密文 xor 明文 ->key 
+
+key 出來後 東西給他改好 再加密包base64送回去
+
+----
+## ref
