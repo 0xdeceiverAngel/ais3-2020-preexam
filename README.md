@@ -443,3 +443,11 @@ key 出來後 東西給他改好 再加密包base64送回去
 
 ----
 ## ref
+https://oalieno.github.io/2020/06/09/security/writeups/ais3-2020-preexam
+https://hackmd.io/Z_xeWVFWSOSGuhJYGXBGog?view#Morty-school
+https://github.com/frozenkp/CTF/tree/master/2020/AIS3_pre-exam
+https://github.com/djosix/AIS3-2020-Pre-Exam#snake-web
+https://stillu.cc/writeup/2020/06/28/ais3-preexam-zh-2020/#-brontosaurus-100-pt
+http://blog.terrynini.tw/tw/2020-AIS3-%E5%89%8D%E6%B8%AC%E5%AE%98%E6%96%B9%E8%A7%A3/#%F0%9F%8D%B9-Long-Island-Iced-Tea
+https://github.com/ss8651twtw/ais3-pre-exam-2020
+https://github.com/r888800009/CTF-Solve/tree/master/ais3-2020
